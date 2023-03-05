@@ -259,3 +259,12 @@ img {
     margin-left: 40px;
     margin-top: -55px;
 }
+body {
+    flex: 1;
+    overflow: scroll;
+    height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
