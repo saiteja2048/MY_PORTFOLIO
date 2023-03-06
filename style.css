@@ -269,6 +269,6 @@ html {
     height: -webkit-fill-available;
 }
 @media screen and(min-width=800px) {
-    #med {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .box {
+        display:block;
     }}
