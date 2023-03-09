@@ -259,16 +259,27 @@ img {
     margin-left: 40px;
     margin-top: -55px;
 }
-body {
-    flex: 1;
-    overflow: scroll;
-    height: -webkit-fill-available;
+@media(max-width:800px){
+    .mypic{
+        width:200px;
+        height:300px;
+    }
+    .box{
+        width:400px;
+        height:auto;
+        padding:20px;
+        margin:10px 2px 2px 300px;
+    }
+    .boxtb h3{
+        padding:10px 45px;
+    }
+    .top-left{
+        left:0;
+    }
+    .bottom-right{
+        right:40px;
+        bottom:-40px;
+    }
 }
 
-html {
-    height: -webkit-fill-available;
-}
-@media screen and(min-width=800px) {
-    .box {
-        display:block;
-    }}
+
