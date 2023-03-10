@@ -202,7 +202,8 @@ img {
     position: relative;
 }
 
-.top-left,top-left1{
+.top-left,
+.top-left1 {
     position: absolute;
     top: 30px;
     left: -20px;
@@ -213,7 +214,8 @@ img {
     border-radius: 5px;
 }
 
-.bottom-right,bottom-right1 {
+.bottom-right,
+.bottom-right1 {
     position: absolute;
     bottom: -10px;
     right: 75px;
@@ -251,6 +253,7 @@ img {
 .project {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 img {
     border-radius: 35%;
     width: 400px;
@@ -259,27 +262,28 @@ img {
     margin-left: 40px;
     margin-top: -55px;
 }
-@media(max-width:800px){
-    img{
-        width:200px;
-        height:300px;
+
+@media (max-width:800px) {
+    img {
+        width: 200px;
+        height: 300px;
     }
-    .box{
-        width:400px;
-        height:auto;
-        padding:20px;
-        margin:10px 2px 2px 300px;
+    .box {
+        width: 400px;
+        height: auto;
+        padding: 20px;
+        margin: 10px 2px 2px 300px;
     }
-    .boxtb h3{
-        padding:10px 45px;
+    .boxtb h3 {
+        padding: 10px 45px;
     }
-    .top-left{
-        left:0;
+    .top-left {
+        left: 0;
     }
-    .bottom-right{
-        right:40px;
-        bottom:-40px;
-    }
+    .bottom-right {
+        right: 40px;
+        bottom: -40px;
+    }
     .boxtb1 {
         margin-left: 300px;
     }
@@ -323,5 +327,4 @@ img {
         padding: 25px 50px 75px 100px;
     }
 }
-
 
