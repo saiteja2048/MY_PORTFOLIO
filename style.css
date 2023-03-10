@@ -326,5 +326,8 @@ img {
         margin: -320px 120px 50px 900px;
         padding: 25px 50px 75px 100px;
     }
+     .body {
+        background-repeat: no-repeat;
+    }
 }
 
