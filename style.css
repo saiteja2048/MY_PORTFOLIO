@@ -202,7 +202,7 @@ img {
     position: relative;
 }
 
-.top-left {
+.top-left,top-left1{
     position: absolute;
     top: 30px;
     left: -20px;
@@ -213,7 +213,7 @@ img {
     border-radius: 5px;
 }
 
-.bottom-right {
+.bottom-right,bottom-right1 {
     position: absolute;
     bottom: -10px;
     right: 75px;
@@ -280,6 +280,52 @@ img {
         right:40px;
         bottom:-40px;
     }
+    .boxtb1 {
+        margin-left: 300px;
+        font-family: 'Cinzel', serif;
+        height: 100px;
+        width: 400px;
+        position: relative;
+    }
+    .top-left1 {
+        left: -15px;
+    }
+    .bottom-right1 {
+        right: 75px;
+        bottom: -5px;
+    }
+    .about {
+        margin: 0px 300px 50px 10px;
+        padding: 25px 50px 75px 100px;
+    }
+    .per {
+        margin: 0px 10px 50px 400px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox1 {
+        margin: 0px 500px 50px 10px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox2 {
+        margin: -320px 100px 50px 400px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox3 {
+        margin: -320px 120px 50px 900px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox4 {
+        margin: 0px 940px 50px 100px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox5 {
+        margin: -320px 525px 50px 500px;
+        padding: 25px 50px 75px 100px;
+    }
+    .iconbox6 {
+        margin: -320px 120px 50px 900px;
+        padding: 25px 50px 75px 100px;
+    }
 }
 
 
