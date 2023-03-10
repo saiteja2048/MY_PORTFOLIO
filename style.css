@@ -328,6 +328,7 @@ img {
     }
      .body {
         background-repeat: no-repeat;
+        width: max-content;
     }
 }
 
