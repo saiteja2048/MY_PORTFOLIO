@@ -265,14 +265,14 @@ img {
 
 @media (max-width:800px) {
     img {
-        width: 200px;
-        height: 300px;
+        width: 300px;
+        height: 400px;
     }
     .box {
         width: 400px;
         height: auto;
         padding: 20px;
-        margin: 10px 2px 2px 300px;
+        margin: 10px 2px 2px 500px;
     }
     .boxtb h3 {
         padding: 10px 45px;
@@ -285,7 +285,7 @@ img {
         bottom: -40px;
     }
     .boxtb1 {
-        margin-left: 300px;
+        margin-left: 500px;
     }
     .top-left1 {
         left: -15px;
@@ -297,32 +297,32 @@ img {
     .about {
         width: 300px;
         height: auto;
-        margin: 0px 300px 50px 10px;
+        margin: 0px 300px 50px 50px;
         padding: 25px 50px 75px 100px;
     }
     .per {
         width: 300px;
-        margin: 0px 10px 50px 400px;
+        margin: 0px 10px 50px 700px;
         padding: 25px 50px 75px 100px;
     }
     .iconbox1 {
         width: 120px;
-        margin: 0px 500px 50px 10px;
+        margin: 100px 500px 50px 50px;
         padding: 25px 50px 75px 100px;
     }
     .iconbox2 {
         width: 120px;
-        margin: -320px 100px 50px 400px;
+        margin: -320px 100px 50px 500px;
         padding: 25px 50px 75px 100px;
     }
     .iconbox3 {
         width: 120px;
-        margin: -320px 120px 50px 900px;
+        margin: -320px 120px 50px 950px;
         padding: 25px 50px 75px 100px;
     }
     .iconbox4 {
         width: 120px;
-        margin: 0px 940px 50px 100px;
+        margin: 0px 940px 50px 50px;
         padding: 25px 50px 75px 100px;
     }
     .iconbox5 {
@@ -331,12 +331,22 @@ img {
         padding: 25px 50px 75px 100px;
     }
     .iconbox6 {
-        width: 300px;
-        margin: -320px 120px 50px 900px;
+        width: 120px;
+        margin: -320px 120px 50px 950px;
         padding: 25px 50px 75px 100px;
     }
     .body {
         background-size: 350% 350%;
         background-repeat: no-repeat;
+    }
+    .experience {
+        width: 300px;
+        margin: 0px 500px 50px 50px;
+        padding: 25px 50px 75px 100px;
+    }
+    .project {
+        width: 300px;
+        margin: 0px 500px 50px 700px;
+        padding: 25px 50px 75px 100px;
     }
 }
