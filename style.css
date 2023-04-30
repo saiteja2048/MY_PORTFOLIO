@@ -336,7 +336,7 @@ img {
         padding: 25px 50px 75px 100px;
     }
     .body {
-        background-size: 350% 350%;
+        background-size: auto;
         background-repeat: no-repeat;
     }
     .experience {
